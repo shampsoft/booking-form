@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<title>Book an Appointment</title>
+</head>
+<body>
+
+
+<div>
+  <div>
+    <div class="container1">
+      <center><img alt="Holographic" src="img/logo2.png"/><h2 class="Book-slot">Book an Appointment</h2></center>
+      <form action="mail.php" method="post"><br>
+            
+            <label for="name"><b>Name</b></label>
+            <input type="text" id="name" name="name" required>
+            <label for="email"><b>Email</b></label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone"><b>Phone</b></label>
+            <input type="number" id="phone" name="phone" required>
+
+            <label><b>Select One & More Game</b></label><br><br>
+            <input type="checkbox" id="category" name="category" value="category">
+            <label for="RAPTORS"> RAPTORS</label>
+            <input type="checkbox" id="RAPTORS" name="category" value="RAPTORS">
+            <label for="Holographic Museum"> HOLOGRAPHIC MUSEUM </label>
+            <input type="checkbox" id="Holographic Museum" name="category" value="Holographic Museum">
+            <label for="TYRANNOSAURUS"> TYRANNOSAURUS</label><br><br>                                           
+            <input type="checkbox" id="TYRANNOSAURUS" name="category" value="TYRANNOSAURUS">
+            <label for="BRONTOSAURUS"> BRONTOSAURUS</label>                                           
+            <input type="checkbox" id="BRONTOSAURUS" name="category" value="BRONTOSAURUS">
+            <label for="TRICERATOPS"> TRICERATOPS</label>                                           
+            <input type="checkbox" id="TRICERATOPS" name="category" value="TRICERATOPS">
+            <label for="WEIGHTLIFTING"> WEIGHTLIFTING</label><br><br>                                            
+            <input type="checkbox" id="WEIGHTLIFTING" name="category" value="WEIGHTLIFTING">
+            <label for="THROW JAVELINS"> THROW JAVELINS</label>                                            
+            <input type="checkbox" id="THROW JAVELINS" name="category" value="THROW JAVELINS">
+            <label for="DIVING"> DIVING</label>                                         
+            <input type="checkbox" id="DIVING" name="category" value="DIVING">
+            <label for="RUNNING"> RUNNING</label>                                            
+            <input type="checkbox" id="RUNNING" name="category" value="RUNNING">
+            <label for="FENCING"> FENCING</label><br><br>                                            
+            <!-- <input type="checkbox" id="FENCING" name="category" value="FENCING"> -->
+            <!-- <label for="FENCING"> FENCING</label> -->
+
+        <!-- <div>
+          <div>
+            <label>Select a Game</label><br>
+            <input type="radio" id="category" name="category" value="category" required>
+            <label for="RAPTORS">RAPTORS</label><br>
+            <input type="radio" id="RAPTORS" name="category" value="RAPTORS">
+            <label for="Holographic Museum">Holographic Museum</label><br>
+            <input type="radio" id="Holographic Museum" name="category" value="Holographic Museum">
+            <label for="TYRANNOSAURUS">TYRANNOSAURUS</label><br>
+            <input type="radio" id="TYRANNOSAURUS" name="category" value="TYRANNOSAURUS">
+            <label for="BRONTOSAURUS">BRONTOSAURUS</label><br>
+            <input type="radio" id="BRONTOSAURUS" name="category" value="BRONTOSAURUS">
+            <label for="TRICERATOPS">TRICERATOPS</label><br>
+			      <input type="radio" id="TRICERATOPS" name="category" value="TRICERATOPS">
+            <label for="WEIGHTLIFTING">WEIGHTLIFTING</label><br>
+			      <input type="radio" id="WEIGHTLIFTING" name="category" value="WEIGHTLIFTING">
+            <label for="THROW JAVELINS">THROW JAVELINS</label><br>
+			      <input type="radio" id="THROW JAVELINS" name="category" value="THROW JAVELINS">
+            <label for="DIVING">DIVING</label><br>
+			      <input type="radio" id="DIVING" name="category" value="DIVING">
+            <label for="RUNNING">RUNNING</label><br>
+			      <input type="radio" id="RUNNING" name="category" value="RUNNING">
+            <label for="FENCING">FENCING</label><br>
+              <input type="radio" id="FENCING" name="category" value="FENCING">
+          </div>
+			  </div>    -->
+            <div>
+              <div>
+              <label for="date"><b>Appointment Date</b></label>
+              <input type="date" id="date" name="date" required>
+                                 
+              </div>
+            
+              <div>  
+                 <label for="time"><b>Appointment Time</b></label>
+              <input type="time" id="time" name="time" required>
+                                                      
+                                                      
+              </div>
+            </div>    
+         
+           <label for="comment"><b>Message</b></label>
+            <textarea id="comment" name="message" style="height:100px" required></textarea>  
+                                                       
+		  <input type="submit" name="submit" value="Submit" class="btn">
+     </form>                                   
+    </div>
+  </div>
+</body>
+</html>
